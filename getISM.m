@@ -7,6 +7,9 @@
 % scale: image scale factor, not necessary but still available to use
 % Npixel: the window size (Npixel*Npixel) used to cut each light-spot 
 % Bg: background 
+
+% ref: [1] Shun Qin,Fast image scanning microscopy with efficient image
+% reconstruction,Optics and Laser in Engineering,2022.
 %% 
 function [Iism,Ipat] = getISM(imstack, F, X, Y,scale, Npixel,Bg)
 % Npixel: Width of PSF
